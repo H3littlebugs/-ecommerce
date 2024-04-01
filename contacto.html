@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles\contacto.css">
+  <title>Contacto</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Contacto</h1>
+  </header>
+
+  <section class="contact-form">
+    <form class="contact-form__form">
+      <div class="contact-form__group">
+        <label for="name" class="contact-form__label">Nombre:</label>
+        <input type="text" id="name" class="contact-form__input" placeholder="Tu nombre" required>
+      </div>
+
+      <div class="contact-form__group">
+        <label for="email" class="contact-form__label">Correo electrónico:</label>
+        <input type="email" id="email" class="contact-form__input" placeholder="tucorreo@example.com" required>
+      </div>
+
+      <div class="contact-form__group">
+        <label for="message" class="contact-form__label">Mensaje:</label>
+        <textarea id="message" class="contact-form__textarea" placeholder="Escribe tu mensaje" required></textarea>
+      </div>
+
+      <button type="submit" class="contact-form__button contact-form__button--submit">Enviar Mensaje</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">© 2024 Página de Contacto</p>
+  </footer>
+</body>
+</html>
